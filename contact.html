@@ -30,10 +30,10 @@
             <h2>Reserver une table</h2>
             <form action="contact.html">
                 <div>
-                <label for="nameinput">Nom</label>
-                <input type="text" id="nameinput" name="nom" required>
-                <label for="lastnameinput">Prénom</label>
-                <input type="text" id="lasnameinput" name="prenom">
+                    <label for="nameinput">Nom</label>
+                    <input type="text" id="nameinput" name="nom" required>
+                    <label for="lastnameinput">Prénom</label>
+                    <input type="text" id="lasnameinput" name="prenom">
                 </div>
                 <div>
                     <label for="telinput">Numéro de téléphone</label>
@@ -52,12 +52,14 @@
                     <input type="time" id="bookingtime" name="heuredereservation" required>
                 </div>
                 <div>
-                    <input type="submit">
+                    <label for="message">Message au restaurant</label>
+                <div>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
                 </div>
-            </form>
-           
+                <div>
+                    <button type="submit">Reserver </button>
+                </div>
+            </form>  
         </div>
-
-        
     </body>
 </html>

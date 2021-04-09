@@ -1,0 +1,23 @@
+.titre_page {
+    background-image: url(img/bar-de-tapas.jpeg);
+    border: 10px solid black;
+    width: 50%;
+    height: 500px;
+}
+
+h1 {
+    color: rgba(223, 197, 55, 0.993);
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    margin: 0;
+    padding: 20px;
+}
+
+.cinquante {
+    width:50%;
+}
+
+.cent {
+    width:100%;
+}
