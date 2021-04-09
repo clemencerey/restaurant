@@ -22,9 +22,40 @@
         </div>
         <div>
             <nav>
-                    <a href="index.html">Revenir à l'acceuil</a>
-                    <a href="menu.html">Revenir au menu</a>
+                <a href="index.html">Revenir à l'acceuil</a>
+                <a href="menu.html">Revenir au menu</a>
             </nav>  
+        </div>
+        <div>
+            <h2>Reserver une table</h2>
+            <form action="contact.html">
+                <div>
+                <label for="nameinput">Nom</label>
+                <input type="text" id="nameinput" name="nom" required>
+                <label for="lastnameinput">Prénom</label>
+                <input type="text" id="lasnameinput" name="prenom">
+                </div>
+                <div>
+                    <label for="telinput">Numéro de téléphone</label>
+                    <input type="tel" id="telinput" name="numerodetelephone" required>
+                </div>
+                <div> 
+                    <label for="numberperson">Nombre de personne</label>
+                    <input type="number" id="numberperson" name="nombredepersonne" required> 
+                </div>
+                <div>
+                    <label for="bookingday">Date de réservation</label>
+                    <input type="date" id="bookingday" name="datedereservation" required>
+                </div>
+                <div>
+                    <label for="bookingtime">Heure de réservation</label>  
+                    <input type="time" id="bookingtime" name="heuredereservation" required>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+           
         </div>
 
         
