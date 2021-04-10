@@ -1,31 +1,42 @@
+
 body {
+    background-color: rgb(199, 194, 148);
     margin: 0;
-    font-family:"comic sans MS",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Quattrocento Sans', sans-serif;
 }
 .header {
-        background: grey;
-        padding: 20px;
-        margin-top: auto;
-        color: white;
+        ;      
+        color: #d83a3a;
+        border: 10px solid black;
+        font-family: 'Nanum Brush Script','Quattrocento Sans', cursive;
+        font-size: 150%;
+      
+        
 }
 .header-title {
-        margin-top:0 ;
+        background-image: url(img/bar-de-tapas.jpeg);
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        
 }
 .header-img {
+    bottom: 10Ò0%;
     width: 100%;
-    height: auto
+    height: 100%;
 }
 .header-nav,
 a {
     padding: 20px;
-    color: inherit
+    color: inherit;
+    font
+    
 }
 .main {
-    background: lightgrey;
     padding: 20px;
     text-align: justify;
 }
 .footer {
-    background: grey;
+    background: rgb(109, 101, 90);
     padding : 10px 20px;
 }
