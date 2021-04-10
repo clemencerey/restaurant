@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family:"comic sans MS",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.header {
+        background: grey;
+        padding: 20px;
+        margin-top: auto;
+        color: white;
+}
+.header-title {
+        margin-top:0 ;
+}
+.header-img {
+    width: 100%;
+    height: auto
+}
+.header-nav,
+a {
+    padding: 20px;
+    color: inherit
+}
+.main {
+    background: lightgrey;
+    padding: 20px;
+    text-align: justify;
+}
+.footer {
+    background: grey;
+    padding : 10px 20px;
+}
