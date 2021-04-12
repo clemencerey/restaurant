@@ -1,7 +1,6 @@
 
 body {
-    background-color: rgb(199, 194, 148);
-    margin: 0;
+    background-color: #c7c294;
     font-family: 'Quattrocento Sans', sans-serif;
 }
 h2{
@@ -14,38 +13,47 @@ footer {
     background: rgb(109, 101, 90);
     padding : 10px 20px;
 }
-.header {     
-        border : 10px solid black;
-        background-image: url(img/bar-de-tapas.jpeg);
-        background-size: contain;
-        
+.header { 
+    background-color: #c7c294;    
+   
+    height: auto;
+    color: #d83a3a;
+    position: fixed;
+    
+    z-index: 2;
 }
 .header-title {
+        position:absolute;
+        left: 10px;
+        top: 10px;
+        margin-top: 0;
         color : #d83a3a;
-        text-align: center;
-        width: 100%;
-        margin: 0;
-        font-size : 200%;
+        text-shadow: #6d655a 1px 0 10px;
         font-family : 'Nanum Brush Script','Quattrocento Sans', cursive;
-        
-        
+        text-transform: capitalize;
+        z-index: 4;        
 }
 .header-img {
     width: 100%;
-    
+    height: auto;
 }
-.header-nav,
-a {
-    padding: 20px;
-    color: inherit;
-    font
-    
+.header-nav {
+    margin: 20px 0;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
 }
 .main {
-    padding: 20px;
+    position: relative;
+    background-color: #cec576;
+    padding: 70px 20px 20px;
     text-align: justify;
+    font-size: 16px;
+    z-index: 1;
 }
-/*.footer {
+.footer {
     background: rgb(109, 101, 90);
     padding : 10px 20px;
-}*
+}
